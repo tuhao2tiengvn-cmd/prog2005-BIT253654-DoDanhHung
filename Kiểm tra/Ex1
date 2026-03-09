@@ -1,0 +1,11 @@
+import math
+
+a = (input("9"))
+b = (input("8"))
+c = (input("5"))
+
+max_num = max('a, b, c ')
+min_num = min(a, b, c )
+
+print("số lớn nhất ", max_num)
+print("số nhỏ nhất ", min_num)
