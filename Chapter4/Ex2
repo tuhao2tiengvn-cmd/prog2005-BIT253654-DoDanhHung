@@ -1,0 +1,13 @@
+def tinh_diem_trung_binh(ds_sv):
+    tong = sum(ds_sv.values())
+    so_sv = len(ds_sv)
+    return tong / so_sv
+
+
+sinh_vien = {
+    "Huy": 8,
+    "Hùng": 7,
+    "Hưng": 9
+}
+
+print("Điểm trung bình:", tinh_diem_trung_binh(sinh_vien))
