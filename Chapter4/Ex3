@@ -1,0 +1,11 @@
+def kiem_tra_key(dictionary, key):
+    if key in dictionary:
+        print("Key tồn tại trong dictionary")
+    else:
+        print("Key không tồn tại")
+
+
+data = {"A": 1, "B": 2, "C": 3}
+
+kiem_tra_key(data, "B")
+kiem_tra_key(data, "D")
