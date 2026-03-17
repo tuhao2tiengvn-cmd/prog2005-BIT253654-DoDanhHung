@@ -1,0 +1,5 @@
+n = input("Nhập số : ")
+
+tong=sum(int(digit)for digit in n )
+
+print("Tổng các chữ số :" , tong)
