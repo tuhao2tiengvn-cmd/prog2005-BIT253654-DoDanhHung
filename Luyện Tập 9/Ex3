@@ -1,0 +1,5 @@
+name = input(" Nhập tên: ")
+
+name = " ".join(name.strip().split())
+name = name.title()
+print("Tiêu chuẩn hóa:", name)
